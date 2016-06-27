@@ -1,6 +1,6 @@
 from django.db import models
 from helpers import YearlessDate
-import .forms as forms
+from .forms import * as forms
 
 class YearlessDateField(models.Field):
     "A model field for storing dates without years"
